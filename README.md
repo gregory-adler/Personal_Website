@@ -1,1 +1,1 @@
-Code for the design of a personal website
+Code for the design of my personal website
