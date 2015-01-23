@@ -1,0 +1,416 @@
+body{
+	background-color: #F0FAFF;
+}
+
+
+.Container {
+	position: relative;
+}
+
+.Menu {
+	position: fixed; 
+  	top: 50%;
+  	left: 50%;
+   	margin-top: -7em;
+ 	margin-left: -10.7em;
+}
+
+
+
+
+.Name h1 {
+	font-family: 'Shift', sans-serif;
+	color: black;
+	text-align: center;
+	margin-left: -.25em;
+	position: absolute;
+	width: 100%;
+	font-size: 54px; 
+	font-weight: lighter;
+	padding: 2px; 
+	vertical-align: center;
+	white-space: nowrap;
+
+}
+
+
+.Nav {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+	white-space: nowrap;
+ 	margin-left: -8.4em;
+ 	margin-top: -2em;
+
+
+}
+
+
+.Nav h2 { 
+	font-family: 'Shift', sans-serif;
+	font-size: 22px; 
+	font-weight: lighter;
+	text-decoration: underline;
+	color: #2A5DB0;
+	text-align: center;
+}
+
+
+
+.About{
+
+	display: inline-block;
+	cursor: pointer;
+}
+
+.Resume {
+	padding-left: .75em; 
+	padding-right: .75em;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+.Projects{
+
+	display: inline-block;
+	cursor: pointer;
+}
+
+/***** Not front page *****/ 
+
+
+.Home {
+	position: static;
+	margin-top: 0em;
+	float: left;
+	margin-left: .5em;
+ 	width: 3em; 
+    height: 0;
+    padding-bottom: 3em; 
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    display: none;
+
+
+}
+
+.Home:hover {
+    background: #262626;
+}
+
+.Home img {
+    display: block;
+    width: 76%;
+    padding: 12%;
+    height: auto;
+}
+
+.Nav2 {
+	position: absolute;
+	margin-top: 5em; 
+	left: 42.5%; 
+  	right: 42.5%;
+  	margin-left: -3em;
+	display: inline;
+	white-space: nowrap;
+	height: 1em ;
+	display: none;
+
+
+}
+
+.Nav2 h2 {
+	font-family: 'Shift', sans-serif;
+	font-size: 20px; 
+	font-weight: lighter;
+	text-align: center;
+	white-space: nowrap;
+	margin-top: 0em;
+
+}
+
+
+
+.About2 {
+	margin-right: .75em;
+	display: inline-block;
+	cursor: pointer;
+	color: #2A5DB0;
+	text-decoration: underline;
+	
+
+
+}
+
+.Resume2 {
+	margin-right: .75em;
+	display: inline-block;
+	cursor: pointer;
+	color: #2A5DB0;
+	text-decoration: underline;
+}
+
+
+.Projects2{
+	display: inline-block;
+	cursor: pointer;
+	color: #2A5DB0;
+	text-decoration: underline;
+
+
+}
+
+
+.LinkClick {
+	margin-right: .75em;
+	display: inline-block;
+	color: black;
+	cursor: auto;
+	text-decoration: none;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding-left: .4em;
+	padding-right: .4em;
+	height: 1.5em;
+	border-color: black;
+	
+}
+
+
+.NavName {
+	position: absolute;
+	margin-left: -2000px;
+	top: 0em;
+	font-family: 'Shift', sans-serif;
+}
+
+
+
+
+
+.Bio p {
+
+	font-family: 'Times New Roman';
+	font-size: 18px;
+	color: black;
+	text-align: auto;
+	line-height: 1.8; 
+	width: 19.25em;
+	padding-left: .5em;
+	padding-right: 1em;
+	padding-bottom: 3.8em; 
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left: solid;
+	border-width: 3px;
+	margin-left: -14.45em;
+
+
+
+} 
+
+.Bio {
+	position: absolute;
+	top: 10em;
+ 	margin-left: 42.5%;
+ 	width: 19.25em;
+ 	display: none;
+
+
+
+}
+
+
+
+
+.Photo {
+	margin-left: 7.25em;
+	display: none;
+}
+
+
+
+
+.Photo img {
+
+	position: absolute;
+	top: 11.15em;
+  	border-top: solid;
+  	border-right: solid;
+  	border-bottom: solid;
+  	border-width: 3px;
+	margin-left: 42.5%; 
+
+}
+
+.ResumeDownload {
+	font-size: 18px;
+	position: absolute;
+	top: 7.25em;
+	margin-left: 0em;
+	left: 42.5%;
+	margin-left: .8em;
+	display: none;
+}
+
+
+.ResumePDF{
+
+	position: absolute;
+	left: 42.5%;
+	margin-left: -22.1em;
+	top: 10em;
+	width: 50em;
+	display: none;
+
+}
+
+
+
+.Project1 {
+	margin-top: 11em;
+	position: absolute;
+	font-weight: lighter;
+	margin-left: 42.5%;
+	border: solid;
+	border-color: black;
+	left: -9.75em;
+	width: 30em;
+	height: 11em;
+	display: none;
+
+}
+
+.Project1Name {
+	font-family: 'Shift', sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -.5em;
+	color: black;
+
+
+}
+
+.Project1SourceCode {
+	font-size: 18px;
+	text-align: center;
+	margin-top: -2.75em;
+}
+
+.Mac {
+	display: inline-block;
+}
+
+
+.Seperator0 {
+	display: inline-block;
+	font-family: 'Shift', sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	margin-left: .25em;
+}
+
+.Seperator1 {
+	display: inline-block;
+	font-family: 'Shift', sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.Windows {
+	display: inline-block;
+}
+
+.Seperator2 {
+	display: inline-block;
+	font-family: 'Shift', sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	margin-right: .25em;
+}
+
+.SourceCodeProject1 {
+	display: inline-block;
+}
+
+.Seperator3 {
+	display: inline-block;
+	font-family: 'Shift', sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	margin-right: .25em;
+}
+
+.Project1Description {
+	position: relative;
+	font-family: 'Times New Roman';
+	font-size: 17px;
+	font-weight: lighter;
+	font-weight: lighter;
+	text-align: left;
+	margin-top: -1.25em;
+	margin-left: .5em;
+	color: black;
+
+
+}
+
+
+
+.Project2 {
+	margin-top: 26.5em;
+	position: absolute;
+	font-weight: lighter;
+	margin-left: 42.5%;
+	left: -9.75em;
+	width: 30em;
+	height: 10em;
+	border: solid;
+	border-color: black;
+	display: none;
+
+
+}
+
+.Project2Name {
+	font-family: 'Shift', sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -.5em;
+	color: black;
+
+}
+
+.Project2SourceCode {
+	font-size: 18px;
+	text-align: center;
+	margin-top: -1.75em;
+	
+}
+
+.Project2Description {
+	position: relative;
+	font-family: 'Times New Roman';
+	font-size: 17px;
+	font-weight: lighter;
+	font-weight: lighter;
+	text-align: left;
+	margin-top: -.5em;
+	margin-left: .5em;
+	color: black;
+}
+
+
+
+
+
+
+
+
